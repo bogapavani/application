@@ -1,0 +1,149 @@
+<header>
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+        <div class="position-sticky">
+            <div class="list-group list-group-flush mx-3 mt-4">
+                <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                    <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2 ripple active">
+                    <i class="fas fa-chart-area fa-fw me-3"></i><span>Webiste traffic</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
+                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-chart-line fa-fw me-3"></i><span>Devices</span></a>
+                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-building fa-fw me-3"></i><span>Partners</span></a>
+                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
+                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-users fa-fw me-3"></i><span>Employees</span></a>
+             
+            </div>
+        </div>
+    </nav>
+    <!-- Sidebar -->
+
+    <!-- Navbar -->
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+                aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbwAAABxCAMAAACZb+YzAAABvFBMVEX29vYzMzP39/cRfaHs4Bw5rpT7+/vyUlJL1rfOwxnvLS0qKiotLS3x6oAkJCS8vLxm68wvn4Y5OTmBgYHcbm1hYWHh4eHu7u6Xl5ezs7Nzc3Pa2tr0/P92scbcKio/Pz//xsX3TU3hUVLM8OdLrZhKzLDzy8q53ufC8un2753FxcWbfW5mzLL///b9+9yhoaHQy1/07Yyw29Pv5Upjpbzs4C8mfps/iqPa7/b272SMwNHv6I+13Obz//zt5VBY4MPxwVXy63Jps6Nt6r7s5V9JSUn/kWF1dXW19ebpYF/wkk1TU1NmZmaNjY32e3r++rj1tirI5FL/916hytbvZUsZGRn//+nsxTjXb2L1aGfx/8GF6sAAb5Bf063//MjtXE7zdVJcqID/4mGa5rW967fQLRzTzX7x7Kfa0UfH4dyNxbk8lYB9vq/1z37BxSmt14C699nkg4LppE+Y2Hv/5+juqKiwy0eO3Y2m0FmV23+C46TSdnXfkVO2SzqWspG2aV/pekf6tFe0877bdC3OVh2PyZrNSR37z1jLGBa13ab74FZ2tozgdDXg/8hjttD0m1CJ0OWk4/jRVldsna4Pzvz5AAAYlElEQVR4nO2di3sTR5LAR+1lEtAgry0s2ZZss0BQ0AV8wbIkKxYxLMaJbZI7y3C3RsZPbjfZXO4gZO99azskDrAKueUfvn7OVL9GMzI20fepvsSWe3p6uvs3VV1d3S0c1JOuFQc5PelS6cHrYunB62Lpweti6cHrYunB62Lpweti6cHrYunB62Lpweti6cHrYunB62Lpweti6cHrYunB62Lpweti6cHrYnnj8FDvZTgx6WleF0sPXhdLVHg4F7p6LaJc7b0QJyLR4aH7D698FEE+PPtP94+50j1hEtlsXr32+w/PRpCbt0//7bXjrXNPuESFd/XalSjozt78w+kePISQS+S4Pe+I8O4//Cgyu6jwWAOFIFOyIQkZ7nVNBbKcSpr2OL3o9k+zlcVvR66TzeSIZLKOAaChALqB1to3hnrxxkWAh9D9yCbzdGR4KNcPJSOqWASJPCmj5StK9/YjLRvPibL9ZskivRIsTbolh9QUe1m8h53c5MLSYDKVSnkTS+nJnOM6ssh1LxaLhDLGDF4C+Yk5vV68YhHgxTGZ0eG56XspIP28je4oSM7RRLc/SLo3QpMWpHvv0Ta4I3IiyYkyXsokHivZcYdB0awKKAeShkmSm7tnKsOXYoAHoeKyl0p6CSZeMuWNFiXVRNkhubQkFm9waXS4GGBGmUHQkLTePFbXtvCQczWOyYwDL5kIxAvgeX5icpjDC3ImKTx3GN6bSFF1dCflRPJy4l5ImGTQhxfc4y1weKngaZO0j3KeqQz/vgCemxlNqXm9VDoDlA/DM5XmJZOpoQAz7AVviDKS25yNpnn3r5y9GUVunz4dHR6KBM9bcizwRlLg3gTTUIWol40JLzHIekSD50aF5+YmkoYMyaUc0E0zPFpQYlIMfe4IyMTq5S6DjllwI8FDv5+ajiSn48BzIsFj2mOCV5Th0ZvlAhPzseEl+0mXdA4PszNn9Ag9Mabb4eGMk35RoN5JakOcCZDCBo8weGycvPIro0xPK38fBzzeeRo8lJXhMaLLsFe8ZSc2vDQzkh3CQxkrluSy79SEwkskeL2kXPTddHMwWyaat2mCN3VjhsiNqeOGx8y9AR58DcXYiJZgryTTseElJrJH0Tw0nLLmSQqVagMvOcoNJ6wYbR7sBG8IdQpvGqO7QWRmZmr6eOExi6HDc5xlGZRqV3ygseBRv7FTeNhohmQazEYxm7zBpLQi8NtI8ySa/FWIDw+zuzFF4WEFnDpueJOuEZ5yMzGRKCtxYqY0HrzkXdJLncKT/aXEvPRXSqieCs/zjPlQJrAj3hAmj2C/FDuDNz2F9W3qw88fPnz4+VlMb/p44XlksDDBm4QmylsircvIM4VifHjUyTFpnsmHDJ7OniRDmc9JPgd5v4zwBoeWUtL7kxbdsxAkT2QQtCvYCUcdwCMWc2bqxkf33Xw+7167OXXc8OgIboLXL40vZLCCGkMy0jFdhadP0jXiJs0T0+OEqbB7DJ5kNZN3XSQ3UNhNBd5EDmUW4Ci/xPO5I6DRORdlQK3uCi2OAY9o3Y2pqdtX7rvXb9269cXVD6cCu3lM8Ej3GeAhRRkySOXJJ20SPG+JRKOoZHW/gHYLQoZJelbcJT1zsB+WBQcpVk05aCAGMw2eKw+WE6JmQHHxEAAnR35fxYE3RQa7mx89vFq//seBgYHrJwGP2E0TPGWAwz0jT9y5aVHgDTlKsFed2OP3XocXhIRh3sSgI8LKtKR+WG/i3UPdEWbcpHkISSkZATnwybCqgTfBm/fjwNHhTWOLefPhtavuxS8HBk4KHhmdTN6mK/kD1NxJL7o3yoPVMrys0lrVy8DjlwGe6Aok10wqTEelpPTb4MkTVGHQ8cwjwLXgoDT4C3UCb+r2Q7d+8ctLAycID/efEZ6UjbiW6K7sOLqdwCPveIfwJtvAG4kJDxhKXG8nuEt0QSx4mNTZ+/VbA0JOBp63bDKbqo8/ie1gWknpBB62m53C02aMCrzJuJqXDYzLfAYMExO5TuFd/OMJwyN1NcEbkfUMWxJ53t7fETxiN38h8KClTOQCB43F/boEHu5AEzzJ80viQSErR8dyncHDdrNDeHfD4SUjwkvk/GWhwANL9oPPQZ3ijXk3r9W/uHj9qxOF5y2b4ClUsE+alaJTXrYjh4XYzZOHB1MGM75eZYJhbhJ4L7nO4N2YunLt/n23fukk4eHmFA3wHOhukqEqK903YWSM4cn7RTR4iUSxQ3jpNvCGLfBcOLjxlSz+OD+nl077H5eCx8aZ592YwdO8m1eE03JS8JIjBnjy65qYyLgZaZo3ZIGnVkKDlxw+aXjOCKziqLFyS/5NNP7aAbxpEmCZvn3thOF5o0Z48u0ZOTrmpU3wEhOjC1RG/VI0eN4QCN4cP7zB4eGFQSlbYBfcoN0T/pgg7ZiJE9ukUekTh5dIgD0BATwl+CRHx/yuUmKbXpJK6q4VXmIQPu3Y4SWSSenPVA4oVtawyASfGnNVYWrmxluANwra6sPrl7qmKEfHzH6N1pMmeN4CyHf88GTx3ypDmayYBbjPMB686bcCD+7n8OFJKy44Wd47VuwYnvS0E4WXTA0OSzjkEljBI6BGXQEPNlBUHmWgj4Z7WcIwKGL4HcCTiz0xeIND6cmMvHEa6YvzyUy3aR6svA9P6gQ8t5aKEw53F8FLDE1mtJ3zal5vSapQt8JTtpml4cqz2KfaXfC85PxwFj5P9cpgxbsdHgxp4OmRFCAc9Y3rLx2etIclqYSA5CBgQtqd3d3wYN94yxnFinYLvKGlBNxlnJZGPSVgC+Mvv3h4E8saSAAPvpXeUg42E7g1xj0s90zzvIkh9WEnE2GR9rD4B25YZmWykExLZvWXDU81+dJKpOSKzRelpfV+IzxvSWxGEVNhCG9+WH9VTgKetIclOSpPFuSNOV5/F8HTN0wCeBmoa/P9EOVgzgzP38PiL7tAzVMHmJOBh2TbKBlGhDLSZGE+I08lTPCkf/KkE3gh/4BKHHiDjrxzNQHhybumJyYhpWCLTowloYmcZqVPBJ5tSYjhGZX9sPbwLp8H8s/TMeF9/S//+olF3q/HgycvktE+CODBlebE4DAszF82iQUvo1nptwAvISuXfBJGqo4JHnp6/vE5Jp+RH09UeA/rX94i8sXVsyZ4X3/z4NcW+eDSRbCUFgVev6YLATx5EpSGhY0GtjWO5mk7o08InnklXW8kNDtGeOjpt+c+g6LAm5m6ctWt5+v5vPvwtmHH9J/+7bc2du+eigvP0eLqEJ40mENXETtlHZlNNK9vwYgM7w1tgwAL5bHhocuPAThN8+iC7IefU7lyc2pGhff1v/+nDd2v3zsVH56+owWYTUlRpM3mk51pnmaluwze+ccCmhAZHlG9KX5ISD8l9PU3VnYfnzrVCTw1rg7hZWxnqpL9HcJT/c23unssJjxsMv/rnCoyPEKPnc6jZ05+JcH7039YTeZ7pzqDp8bVITx7lDDXIbys4t2+jU23xY7gITLc6fJEPb/Mz8WSLREw+fTXIcMdYxcfnrIbU4bnLKgOBuiRjuC5C8rTugUeci7rameAZ5HpkOHu41OnAnj+/DgSPDWuDutvC0x6Sxk7PHnCqTgsqpXu/KyCftAk6lmFTuDhGYKR3bn//gdZ/s6XP/w9lG9CvEwIz69WNHjKMCTBGzEfAvfA8X0FXiYrxAhPXf2MDg8pp4S0I172U0JHh2c2mVT+EcpnG+NnmIz/z//+VpI2JrMzeNp+HQivaIaXTAdDgRyYHpwXwpVThadY6TiaV1RuRLL/6dnO5x0dHnr62MaOCZ87/O43ZwS7P39po2U2mR3CU9x3WH8kfbsFyBOsWJqXhLyEN2iEp65+xoCnbMtIu66ys9R6Mvao8NDlc5+GyO98EWp35syfv/o4irx76mjwVPWS4KnOIZfUSBt4CXrM2whP2tYUHR5SopCJicmifI5JWINjgHf+wjuKbBBRE329O3Pmbz54N4q8d1R48hut1F9f76N5ih3DU7o2huapU1IvIdXN3yt77PA2Vjf37hDZ3NyICG99/QGT9fU3DE85dydtfdP3NdLbcrYxD3SaGZ5+7i8yvPDvpVpyTkjzVhk3LOT3agR465wbJ7j+BuE55t20essCAate8eEVO4Xn6FF0ID6S44W3sUmIbe5h2VxdJX9sGOCNA3jrDBxGt85+AXpHh4cysBNkeP0mdxNOxWPDw+Mo3E4RBx5ytAUsv5xgI/SxwsPsNlf3Xs0dbm8fHu4v4s93NsPhEVjrD3YOdltYDg52JHpvAJ40sslmM2eCR05adgzPkax0LHiYy6ht7gJep+OER9i92l5ZWZmZmcE/5hax8q3q8IDZJOwOWmtYWuRn6+ABoHd0ePK3HcnwHCM8sN8/PjxJm+PBI+Oz9l2puGmpu+Af6TlOeKuE3czK9pPvnj179t3+9sr2Ita9jRB4xFgerK3tfv9ya2vr5ffPW2stQq8NPFzldCoZCPia4iA5wSqXuwfySfDQBCyDy71JCC+hZyDiz/OCshNkki7fkZL2uDpIKiKhwSNxliUFn5daKsLdHxgeqHMKO1fIXYYpKjzYeONKegAPq9nii5X9Hx6NE3n0bJ/Q8w2nCR7WsoO11kv/qPrW7toBGf7aat5IGoq/n2sySLvLKufcBfnkXaeTaYNIp6RMGYiwnpcqwb7wyhkGScpuLbkIww4S5GZHRgdTSY8KgTM6klW+Y3pYKoR8d5PUCmUlvR9eK4bC28Be5tzKHENH8e2vzGGvcyME3vp6a+37gQFAr7UTAZ7tq/lhosNqZ/0efPN35iM5B+Lffs+uuQgFX1vktPsefsUlka8Zdv849Ovd+4cXloeGhpbTw/05h357rr3O5CpCfsnyd/Qj/5n8p/y+KPBWseJtv3hGsT2iCH/Y3l70Rz0DPIzpQau1BeANfI9VT9jNEHhvUKKWasgXeqs+qEXITLrbYcHvyP8uRlgu+zUFHsb0hCneo8W5xUdM9Z74dtMMb2dtl1HbYb+3Wq2O4HUKNtZ9qh5EutmayWA4RbnqP3RxDK+tDm9/ZZ9CO1w5pKq3uLK/emcvCrwtoYG7xGVZjwPPmty+yXHRqbxYYF6xVxHL7+zfm3ljGBV4d+6szq28YuaSw/tuZm71zp2I8F5GhofyXJD8Wa9hvv1VBD6EF2DJUC0UqtW8a7iIB+F8SA38S/A5IVWwl+E/Sfdh85LI4XAJ3mYA7wmHtx/RbEbWPNKJ1TEuBYQK4nPVYIb8i2OGdvNiCnlUrZEPs3r/B08yFo+dvWqt0tds9pVLDdMT3MaYvQDUCCqXr/GPDY1ePqwMfjHvuLPkd03N4AY9QK8HpavwiLP56kcsP2zPUL9l/En7Ma/Vek5ljcEjY956mzEPFcp9VJo1N19rss/lguG1FBf7mka0ZXy5WcLw6Iea/ta7Db+AWf0qfkChIjL0lQyPyJf8y03t3XDH2MVmuepWeTm4Nmot86/9OjS1NrKLON0lTW1W1DoEPUALANdNY96LQyLcaj6am8ETvVBvc/2gxWIrLaaBL1vtvU0fXl8pny/1hcAbC7rOYI9YMeUqqlb6zPAAfcNVh90ochjoBRXoK2vw/IvNQh60SH2G30IsOjx2sZan8PoM8PqghMJbPHzBImN/oYr3bPtwL3yeRyObO62151tbYpa+EwNeJZ8X3WeEF7Tb0Pe8mGYjb4cXdP6YAZ7oGladZkOzu+B+/fUJ4DUiwjNoXolDydvgQc0LgbdxZ291b3Fx8ckLPlPHM4V931+xhMfoYsKBP1HfXVtrP0kH8Kp58dEADyqGoe9FMaUQeEHHab0alF8qlCxZIsKr1X3z3Bm8cuGo8N6h60EbeLK3/Ywr3vZeeHhMg7f1PMIkPYBXrlZD4ZX9apv6nheDC7HAg/TLVb0AXn6jPga6BlaD86k0ZmdndWfDJztWr7WFV5k1llES+M3wUBXfxQHjShSsDgtbiV3dw67mj2zEw4oXHpjG7B7sHBwEZjOew4KJFfzO1eG5NF+50mdqVlBMs9EGXoXkM7g8HF6zwftef4aAV9WiZQ6EV6oHH63w8qaIi1DLStUMj0xC3ZqoBJyP6ouxq9TjPPyBKt7iDBnx/AU9W3hsbY2tCHHlA8HN9vCajVnxyhrg5akxKv/EFMcKD/uJNngsx0/0skGzCzI8/AzVavkqaZgjBvAqVd80hsDTSwjglQsWeFh8eGGxTTLqYZ9lZua7cTbZm3mFVXEjHN7OmjxVGHi+FgNe31jDrnmIGfzyz+XQvicWyQLPpa9G82d6WZmBIRVesxkCz6g1Y0HdffMcAs8Ux/EHxFoIPGjUQf0VeFjP9g5ZhAx7KzP7m5uLe23hKZP0GPDwz9JYH3f2TJpHa13+P1Pfg2IwXgs8Rr9JCzD4q4G7WqhRsZrN2ULBVj1ae1KBSht4uIyqXkMBr/STARAT16j+Kjzibu4Lb+W7F9t7G3AXyxuHVyEtLrHfZni0ZZVCeN+Tltvgcfqvjd0K4Llu3s3n7cNaGYsWgRFk8f8/kfewHAqPFGIYVP2LpQjwpHINi7HbK6/4atDK3OLe5upmmLd5NHi0yzlAo9lk7sZr9sva90J0eLzf+IhkcAYEvCoXLdgMpwq2V+MnALDNVCEEni2DExEe91bEFG9l6sWLQzDqvXl4vOKlcHhjou/VRkWAx5xN5gvqLo8Pj8e59BwwwmKDR4bkshia3xo8rHivZnhsZe8m24S0HRphobHN3S0J3m50eLxnxmzwWLZam74Pgcd1tl4LfYAET84TRfN+5gN4e3h66PKNwuPreWwt/dGjHw5fRF5J390V+yDWjfAuXfe/ykPAI32KP9Us8Liv2OBBLBs84egZ4LEMY3nq0pIQCTJdb6955dJY6bVlzGPeEhlZm6HwSBkGj6gEm3AEeGw978fxQB61gcf2sAT7j2hgetcYYbl1sR5Edjg8Nk1oNizw2DSvOVtn+bTAsJjFWeG5s1x1C6Fw8WSzJELcRj4kimdYahPuEPcm28CzlMHgCf07Krzx9vDG5d1ju3ATiyUw/ZW0+4jD42avYIPHK828Ud3dZMWIN98Ej1Ev8wK08Ggwz5ttBw+x/jJcLM+yPK/bwQuZpFd+Pjq8PbqeN/6jEAzPtAFp/PH1994FdhPQ23q+tmvY+nfpyzp8sIBX5XMEGzx5PLD0fZN3ngGeEtUtqS5PMFWYFREWtQRjv0kXy7PMqo8VjgDPDzfEg4fU9bw5KC8MDsv4t08/EfCI6u201lrPyabbrZfPMUjDpls83MGYnAKPe/IUnlQ9f7WI970N3mzZBi/MG0Dx4UmNCOCxFYWaBZ4TBZ4IoB/JYdk7ZMt5QrZfrarwLpxH9QAeWVZ4QPa7k7MKLfN291sXlXoLeHU4DdM0D64pGBsm4PGWG+DJ9DU2QWC60Q5e3jCFF/AYtUa1HTxWBjJcrIhViYrm7zoR4Yn1PCB76iR9/K+X8V0BPP+kycHu7sHBzgP9oMnAVxctnsYYmwNwhlZ4lVLF0vccXl0sq6jvCKdaKYlFM8sTamwuEeJtGnencHiFKs1TsMDzvU1zGRwetx6dwyMrQpubq1DU8Nj446fE3AB4wRkvfsJLOeIlmUyp18kqGGCoda3LjdpsvWAOfnJ4Qm8M8FgBtTqnqHfda9YtNcvrIc3zNCwCHl1PLreDZymDwcuL96zz2OY7BJYimzAw/c63T+kdEJ44XflAO1tJ4F16X2cXwCNDTbNhgZdvsL4vuGLN1Gh9yS6IshmeGNLcqsVfzftrGpauA/B0LAJenYb5qhHg6U6XgBfmGYXAQ9LJ2A1J8VbhyfTfjH96nu9SleEF55q1Y83acAd7dSxPRgs8d7bAY7asWbX1vQ+P9YAGj88UmrNu1bbNoSp2h9EV31DNC4FXOjK8Oq9rLIeF/nf+rxcufPrppxfolz+Qj/j/C/QDF/In/vvcZX43+uSD93T5QEv8gM3upENOvNebWF5jlcK/Cvkx8pcO7zVOpIts1UqT5tfhkWQMr0av15Sx1WXJzQLZfUfEEB6tjjGTXGs06aOUfdqsak1aEfXxDuL1po9/na/SjMatf75oZbCLFbp7sUxqqIbGyd5S1o6yNuYReE8vR5Onfmyy/n4kuWgwmaw9BSJV9htXvMB+K7kKBZ7OsuurYVVeDBIflGaT/R9Y8k6efSroZgDlZ8cqlVKD5tCviyLo3XrgnCZX6W/sj5oqEVTT3ARedbKD1NgJII9SO/ElOhEF9kvcO5TqiMv8p2vMzQ4/iWyWDCyZlaBdDw5SGc5siTKoC++IR5mLMB/qoiew+BEtogjGSiidBS8EV3lhlh4zNh9FphARSni9pRIYEkfwM2Xm7bNnAMkh1x35k14T9sNyPaw1IplftD8hrENEG8P6y3jz/wOlllYLNyCf5QAAAABJRU5ErkJggg==" height="25" alt=""
+                    loading="lazy" />
+            </a>
+            <!-- Search form -->
+            <form class="d-none d-md-flex input-group w-auto my-auto">
+                <input autocomplete="off" type="search" class="form-control rounded"
+                    placeholder='Search (ctrl + "/" to focus)' style="min-width: 225px" />
+                <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
+            </form>
+
+            <!-- Right links -->
+            <ul class="navbar-nav ms-auto d-flex flex-row">
+                <!-- Notification dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                        role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Some news</a></li>
+                        <li><a class="dropdown-item" href="#">Another news</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Icon -->
+                <li class="nav-item">
+                    <a class="nav-link me-3 me-lg-0" href="#">
+                        <i class="fas fa-fill-drip"></i>
+                    </a>
+                </li>
+                <!-- Icon -->
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <!-- Icon dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdown"
+                        role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <i class="united kingdom flag m-0"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="united kingdom flag"></i>English
+                                <i class="fa fa-check text-success ms-2"></i></a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="poland flag"></i>Polski</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="china flag"></i>中文</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="japan flag"></i>日本語</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="germany flag"></i>Deutsch</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="france flag"></i>Français</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="spain flag"></i>Español</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="russia flag"></i>Русский</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="portugal flag"></i>Português</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Avatar -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+                        id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg" class="rounded-circle"
+                            height="22" alt="" loading="lazy" />
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">My profile</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+</header>
+<!--Main Navigation-->
+
+<!--Main layout-->
+<main style="margin-top: 58px">
+    <div class="container pt-4">
+
+    </div>
+</main>
+
