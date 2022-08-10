@@ -7,7 +7,7 @@
                     <form [formGroup]="employeeForm">
                         <div>
                             <label>Name :</label>
-                            <input type=" text" class="form-control" formControlName="name" placeholder="Enter Name">
+                            <input type=" text" class="form-control d-none" formControlName="name" placeholder="Enter Name">
                             <div *ngIf="f.name.touched && f.name.invalid">
                                 <div class="text-error" *ngIf="f.name.errors.required">Name is Required</div>
                             </div>
