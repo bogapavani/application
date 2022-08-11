@@ -55,20 +55,22 @@ img {
 }
 
 .password {
-    margin-top: 15px;
+     margin-top: 10px;
     margin-left: 60px;
 }
 
-.password a {
+.password a:hover {
     text-decoration: none;
     color: blue;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .checkbox {
     margin-top: 10px;
     margin-left: 60px;
     font-size: 12px;
+    font-weight:bold;
 }
 
 .checkbox button {
@@ -86,6 +88,12 @@ img {
 .checkbox button:hover {
     background-color: green;
     color: white;
+}
+.form-checkinput{
+    margin-top:8px;
+    margin-left:60px;
+    font-size:14px;
+    font-weight:600;
 }
 
 .login-toggle {
@@ -136,13 +144,13 @@ img {
         outline: none;
         border-bottom: 2px solid black;
         font-size: 20px;
-        padding: 10px 5px 0px 5px;
+       
     }
 
     img {
-        width: 20px;
-        height: 20px;
-        padding: 10px 5px 0px 5px;
+        width: 30px;
+        height: 30px;
+      
     }
 
     .password {
@@ -174,6 +182,12 @@ img {
     .checkbox button:hover {
         background-color: green;
     }
+    .form-checkinput{
+        margin-top:8px;
+        margin-left:80px;
+        font-size:14px;
+        font-weight:600;
+    }
 
     .login-toggle {
         margin-top: 15px;
@@ -193,7 +207,7 @@ img {
 @media only screen and (max-width:450px) {
     h1 {
         align-items: center;
-        margin-left: 120px;
+        margin-left: 100px;
         margin-top: 30px;
     }
 
@@ -223,13 +237,13 @@ img {
         outline: none;
         border-bottom: 2px solid black;
         font-size: 15px;
-        padding: 10px 5px 0px 5px;
+       
     }
 
     img {
-        width: 20px;
-        height: 20px;
-        padding: 10px 5px 0px 5px;
+        width: 30px;
+        height: 30px;
+       
     }
 
     .password {
@@ -260,6 +274,12 @@ img {
 
     .checkbox button:hover {
         background-color: green;
+    }
+    .form-checkinput{
+        margin-top:8px;
+        margin-left:20px;
+        font-size:14px;
+        font-weight:600;
     }
 
     .login-toggle {

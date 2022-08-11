@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ContentChildren, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-deviceslist',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DeviceslistComponent implements OnInit {
 
+     
   constructor() { }
 
   ngOnInit(): void {

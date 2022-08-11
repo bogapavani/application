@@ -8,24 +8,24 @@ import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
   {
-    path:'home',
-    component:HomeComponent
+    path: 'home',
+    component: HomeComponent
   },
   {
-    path:'signup',
-    component:SignupComponent
+    path: 'signup',
+    component: SignupComponent
   },
   {
-    path:'adminhome',
-    component:AdminhomeComponent
+    path: 'adminhome',
+    component: AdminhomeComponent
   },
   {
- path:'forgotpassword',
- component:ForgotpasswordComponent
+    path: 'forgotpassword',
+    component: ForgotpasswordComponent
   },
   {
-    path:'login',
-    component:LoginComponent
+    path: 'login',
+    component: LoginComponent
   },
   {
     path: 'devices',

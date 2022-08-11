@@ -7,14 +7,20 @@ import { FormBuilder } from '@angular/forms';
   styleUrls: ['./signup.component.scss']
 })
 export class SignupComponent implements OnInit {
-  employeeForm:any;
-  constructor(private fb:FormBuilder) { }
+  signupForm:any;
+  constructor(private fb:FormBuilder) {
+    this.signupForm=this.fb.group({
+      username:[''],
+      password:[''],
+      confirmpassword:['']
+    })
+   }
 
   ngOnInit(): void {
   }
 
   get f(){
-    return this.employeeForm.controls;
+    return this.signupForm.controls;
   }
 
   submit(){
